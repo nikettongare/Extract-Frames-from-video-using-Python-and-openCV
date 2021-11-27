@@ -1,3 +1,14 @@
+# Hello friend my name is Niket Tongare i crated this script to 
+# convert or you can say extract frames from video 
+
+# This script converts the videos from videos folder 
+# of same dir to images and then save that images to frames/videoname folder 
+
+# the current gap between frames is 10 
+# if you want to change the gap just cange up value 
+# when calling save_frames function from main
+
+
 import os
 import numpy as np
 import cv2
@@ -42,3 +53,6 @@ if __name__ == "__main__":
 
     for path in video_paths:
         save_frame(path, save_dir, gap=10)
+
+
+        
